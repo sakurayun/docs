@@ -1,91 +1,90 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Yagimall",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#fe0bbd",
+    "light": "#fe0bbd",
+    "dark": "#fe0bbd",
+    "ultraLight": "#fe0bbd",
+    "ultraDark": "#fe0bbd",
+    "background": {
+      "dark": "#121212"
+    },
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#fe0bbd",
+      "to": "#606fff"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+  "search": {
+    "prompt": "请输入想要搜索的内容..."
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "icon": "comments",
+      "name": "问答社区",
+      "url": "https://forum.vup.news",
+      "color": {
+        "from": "#ff0aca",
+        "to": "#00e1ff"
+      }, 
+      "isDefaultHidden": false,
+      "iconType": "duotone"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "哔哩哔哩",
+      "icon": "bilibili",
+      "url": "https://space.bilibili.com/1178470738",
+      "color": {
+        "from": "#2e7eff",
+        "to": "#0badfe"
+      },
+      "isDefaultHidden": false,
+      "iconType": "duotone"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "油管",
+      "icon": "Youtube",
+      "url": "https://www.youtube.com/@ProjectMons",
+      "color": {
+        "from": "#ff0000",
+        "to": "#ff6600"
+      },
+      "isDefaultHidden": false,
+      "iconType": "duotone"
+    },
+    {
+      "name": "抖音",
+      "icon": "tiktok",
+      "url": "https://douyin.com",
+      "color": {
+        "from": "#000000",
+        "to": "#1C475D"
+      },
+      "isDefaultHidden": false,
+      "iconType": "duotone"
+    },
+    {
+      "name": "推特",
+      "icon": "twitter",
+      "url": "https://twitter.com/TaknaMons",
+      "color": {
+        "from": "#0ad6ff",
+        "to": "#001eff"
+      },
+      "isDefaultHidden": false,
+      "iconType": "duotone"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "入会",
+      "pages": ["join"]
     }
+    
   ],
-  "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+  "backgroundImage": "/images/lightbackground.png"
 }
